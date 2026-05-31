@@ -1,0 +1,42 @@
+<!-- Template: Painel Estratégico RH — HTML Content Visual -->
+<!-- Medidas necessárias no Values:
+     HTML Score Saude Texto, HTML Score Saude Cor, HTML Score Saude Label,
+     HTML Turnover Texto, HTML Turnover Cor,
+     HTML Absenteismo Texto, HTML Absenteismo Cor,
+     HTML Conformidade Texto, HTML Conformidade Cor,
+     HTML Titulo Periodo
+-->
+<style>
+  .rh-panel { font-family: 'Segoe UI', sans-serif; padding: 8px; }
+  .rh-header { font-size: 13px; color: #1F4E79; font-weight: 700; margin-bottom: 12px; border-bottom: 2px solid #1F4E79; padding-bottom: 6px; }
+  .rh-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .rh-kpi { background: #FAFAFA; border-radius: 8px; padding: 14px; border-left: 4px solid #1F4E79; }
+  .rh-kpi-label { font-size: 10px; color: #757575; text-transform: uppercase; }
+  .rh-kpi-value { font-size: 22px; font-weight: 700; margin: 4px 0; }
+  .rh-kpi-sub { font-size: 11px; color: #757575; }
+</style>
+<div class="rh-panel">
+  <div class="rh-header">Indicadores Estratégicos RH — {{HTML Titulo Periodo}}</div>
+  <div class="rh-grid">
+    <div class="rh-kpi" style="border-left-color: {{HTML Score Saude Cor}};">
+      <div class="rh-kpi-label">Score Saúde RH</div>
+      <div class="rh-kpi-value" style="color: {{HTML Score Saude Cor}};">{{HTML Score Saude Texto}}</div>
+      <div class="rh-kpi-sub">{{HTML Score Saude Label}}</div>
+    </div>
+    <div class="rh-kpi" style="border-left-color: {{HTML Turnover Cor}};">
+      <div class="rh-kpi-label">Turnover Mensal</div>
+      <div class="rh-kpi-value" style="color: {{HTML Turnover Cor}};">{{HTML Turnover Texto}}</div>
+      <div class="rh-kpi-sub">Meta: ≤ 2,0%</div>
+    </div>
+    <div class="rh-kpi" style="border-left-color: {{HTML Absenteismo Cor}};">
+      <div class="rh-kpi-label">Absenteísmo</div>
+      <div class="rh-kpi-value" style="color: {{HTML Absenteismo Cor}};">{{HTML Absenteismo Texto}}</div>
+      <div class="rh-kpi-sub">Meta: ≤ 1,5%</div>
+    </div>
+    <div class="rh-kpi" style="border-left-color: {{HTML Conformidade Cor}};">
+      <div class="rh-kpi-label">Conformidade Folha × Ponto</div>
+      <div class="rh-kpi-value" style="color: {{HTML Conformidade Cor}};">{{HTML Conformidade Texto}}</div>
+      <div class="rh-kpi-sub">Meta: ≥ 95%</div>
+    </div>
+  </div>
+</div>

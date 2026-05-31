@@ -1,0 +1,21 @@
+<!-- Template: Folha + Ponto Integrado — HTML Content Visual -->
+<!-- Medidas: HTML Custo Total Texto, HTML Custo Por FTE Texto,
+     HTML Horas Extras Texto, HTML Horas Extras Cor,
+     HTML Conformidade Texto, HTML Produtividade Texto -->
+<div style="font-family: 'Segoe UI', sans-serif; display: flex; gap: 12px; flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 140px; background: #E3F2FD; border-radius: 10px; padding: 16px; text-align: center;">
+    <div style="font-size: 10px; color: #1565C0; font-weight: 600;">FOLHA</div>
+    <div style="font-size: 20px; font-weight: 700; color: #0D47A1;">{{HTML Custo Total Texto}}</div>
+    <div style="font-size: 11px; color: #546E7A;">{{HTML Custo Por FTE Texto}} / FTE</div>
+  </div>
+  <div style="flex: 1; min-width: 140px; background: #FFF3E0; border-radius: 10px; padding: 16px; text-align: center;">
+    <div style="font-size: 10px; color: #E65100; font-weight: 600;">PONTO</div>
+    <div style="font-size: 20px; font-weight: 700; color: {{HTML Horas Extras Cor}};">{{HTML Horas Extras Texto}}</div>
+    <div style="font-size: 11px; color: #546E7A;">Horas extras s/ jornada</div>
+  </div>
+  <div style="flex: 1; min-width: 140px; background: #E8F5E9; border-radius: 10px; padding: 16px; text-align: center;">
+    <div style="font-size: 10px; color: #2E7D32; font-weight: 600;">INTEGRAÇÃO</div>
+    <div style="font-size: 20px; font-weight: 700; color: #1B5E20;">{{HTML Conformidade Texto}}</div>
+    <div style="font-size: 11px; color: #546E7A;">Produtividade {{HTML Produtividade Texto}}</div>
+  </div>
+</div>

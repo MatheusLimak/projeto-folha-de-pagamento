@@ -101,6 +101,10 @@ Documentação detalhada: [`docs/modelo-dados.md`](docs/modelo-dados.md)
 
 Lista completa com fórmulas: [`docs/formulas-dax.md`](docs/formulas-dax.md)
 
+Exemplos práticos no Editor Avançado (M) e DAX (`RELATED`, `SUMX`, `CALCULATE`, limpeza de dados): [`docs/exemplos-dax-m.md`](docs/exemplos-dax-m.md)
+
+Visuais customizados **HTML Content** com KPIs estratégicos (DAX + HTML5): [`docs/visuais-html-content.md`](docs/visuais-html-content.md)
+
 ---
 
 ## Estrutura de dados simulada
@@ -125,6 +129,7 @@ Detalhamento de colunas: [`docs/estrutura-dados.md`](docs/estrutura-dados.md)
 - **Star Schema** — performance e clareza semântica
 - **DimData** — tabela de datas desconectada para time intelligence
 - **Medidas calculadas** — KPIs centralizados (sem colunas calculadas desnecessárias)
+- **HTML Content** — cards executivos customizados com DAX + HTML5
 - **RLS (Row-Level Security)** — perfis Gestor RH, DP e Diretoria *(planejado)*
 
 ---
@@ -137,10 +142,12 @@ Detalhamento de colunas: [`docs/estrutura-dados.md`](docs/estrutura-dados.md)
 ├── docs/
 │   ├── modelo-dados.md      # Relacionamentos e cardinalidade
 │   ├── formulas-dax.md      # Medidas e colunas calculadas
+│   ├── exemplos-dax-m.md    # Exemplos reais M + DAX (Editor Avançado)
+│   ├── visuais-html-content.md  # KPIs estratégicos + HTML Content
 │   ├── estrutura-dados.md   # Dicionário de dados simulado
 │   └── dashboards.md        # Wireframes e filtros por página
 └── assets/
-    └── diagrama-modelo.png  # (placeholder — gerar a partir do diagrama acima)
+    └── html/                # Templates HTML copiáveis para o visual
 ```
 
 ---
