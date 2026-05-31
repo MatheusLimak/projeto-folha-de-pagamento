@@ -153,7 +153,3 @@ Detalhamento de colunas: [`docs/estrutura-dados.md`](docs/estrutura-dados.md)
 - [ ] Incluir pipeline ETL documentado (Power Query M)
 
 ---
-
-## Autor
-
-Projeto desenvolvido para portfólio — demonstração de modelagem analítica em contexto de **RH, Folha e Ponto**.
